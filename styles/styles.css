@@ -34,8 +34,12 @@
     background-color: white;
   }
 
-  .calculator p {
+  .calculator button {
     font-size: 30px;
+    background: none;
+    border: 0;
+    color: inherit;
+    background-color: none;
   }
 
   .buttons:hover {
@@ -57,13 +61,8 @@
         margin-left: 10%;
   }
 
-  .ac p {
+  .ac button {
     margin-top: 25%;
-  }
-
-  .ac:hover {
-    background-color: rgba(121, 189, 253, 0.268);
-    border-color: blue;
   }
   
   .delete { 
@@ -73,12 +72,7 @@
     margin-left: 13%; 
   }
 
-  .ac:hover {
-    background-color: rgba(121, 189, 253, 0.268);
-    border-color: blue;
-  }
-
-  .delete p {
+  .delete button {
     margin-top: 25%;
   }
   
@@ -89,11 +83,11 @@
     margin-left: 13%;                    
   }
   
-  .changeValue p {
+  .changeValue button {
     margin-top: 25%;
   }
 
-  .Result { 
+  .result { 
     grid-area: Result;
     margin-top: 2%;
     margin-left: 2%;
@@ -107,7 +101,7 @@
     padding-bottom: 2;
   }
 
-  .numberCero p {
+  .numberCero button {
     margin-top: 7%;
   }
   
@@ -118,7 +112,7 @@
     margin-left: 7%;
   }
 
-  .dot p {
+  .dot button {
     margin-top: 17%;
   }
   
@@ -129,7 +123,7 @@
     margin-left: 3%;
   }
 
-  .equal p {
+  .equal button {
     margin-top: 23%;
   }
   
@@ -140,7 +134,7 @@
     margin-left: 10%;
   }
 
-   .numberOne p {
+   .numberOne button {
     margin-top: 25%;
   }
   
@@ -151,7 +145,7 @@
     margin-left: 13%;
    }
   
-   .numberTwo p {
+   .numberTwo button {
     margin-top: 25%;
   }
   
@@ -163,7 +157,7 @@
     margin-left: 13%;
     }
   
-    .numberThree p {
+    .numberThree button {
       margin-top: 25%;
     }
 
@@ -174,7 +168,7 @@
     margin-left: 10%;
   }
 
-  .numberFour p {
+  .numberFour button {
     margin-top: 25%;
   }
   
@@ -185,7 +179,7 @@
     margin-left: 13%;
    }
 
-   .numberFive p {
+   .numberFive button {
     margin-top: 25%;
   }
   
@@ -196,7 +190,7 @@
     margin-left: 13%;
   }
 
-  .numberSix p {
+  .numberSix button {
     margin-top: 25%;
   }
   
@@ -207,7 +201,7 @@
     margin-left: 10%;
   }
 
-  .numberSeven p {
+  .numberSeven button {
     margin-top: 25%;
   }
   
@@ -218,7 +212,7 @@
     margin-left: 13%;
    }
 
-   .numberEight p {
+   .numberEight button {
     margin-top: 25%;
   }
   
@@ -229,7 +223,7 @@
     margin-left: 13%;
    }
 
-   .numberNine p {
+   .numberNine button {
     margin-top: 25%;
   }
   
@@ -240,7 +234,7 @@
     margin-left: 8%;
   }
 
-  .percentage p {
+  .percentage button {
     margin-top: 25%;
   }
   
@@ -251,7 +245,7 @@
     margin-left: 3%;
   }
 
-  .division p {
+  .division button {
     margin-top: 25%;
   }
   
@@ -262,7 +256,7 @@
     margin-left: 3%;
   }
 
-  .multiplication p {
+  .multiplication button {
     margin-top: 31%;
   }
   
@@ -273,7 +267,7 @@
     margin-left: 3%;
   }
 
-  .substract p {
+  .substract button {
     margin-top: 22%;
   }
   
@@ -284,7 +278,7 @@
     margin-left: 3%;
   }
 
-  .add p {
+  .add button {
     margin-top: 22%;
   }
   
