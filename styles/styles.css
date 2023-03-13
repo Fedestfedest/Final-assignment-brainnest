@@ -1,0 +1,267 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+/* Calcultaor */
+.calculator {  display: grid;
+    grid-template-columns: 1.8fr 1.8fr 1.8fr 1.8fr 1.8fr;
+    grid-template-rows: 0.3fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-auto-flow: row;
+    gap: 5px;
+    grid-template-areas:
+      "Result Result Result Result Result"
+      "ac delete changeValue percentage division"
+      "numberSeven numberEight numberNine . multiplication"
+      "numberFour numberFive numberSix . substract"
+      "numberOne numberTwo numberThree . add"
+      "cero cero cero dot equal";
+     border: 2px solid black;
+     border-radius: 15px;
+     height: 600px;
+     width: 500px;
+     margin: auto;
+     margin-top: 5%;
+  background-color: rgb(224, 222, 222);
+  }
+
+  .calculator div {
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+  }
+
+  .calculator p {
+    font-size: 30px;
+  }
+
+  .ac { grid-area: ac;
+        width: 90%;
+        height: 90%;
+        margin-left: 10%;
+  }
+
+  .ac p {
+    margin-top: 25%;
+  }
+  
+  .delete { 
+    grid-area: delete; 
+    width: 90%;
+    height: 90%; 
+    margin-left: 13%; 
+  }
+
+  .delete p {
+    margin-top: 25%;
+  }
+  
+  .changeValue { 
+    grid-area: changeValue; 
+    width: 90%;
+    height: 90%; 
+    margin-left: 13%;                    
+  }
+  
+  .changeValue p {
+    margin-top: 25%;
+  }
+
+  .Result { 
+    grid-area: Result;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .numberCero { 
+    grid-area: cero; 
+    margin-left: 3%;
+    height: 90%;
+    padding-bottom: 2;
+  }
+
+  .numberCero p {
+    margin-top: 7%;
+  }
+  
+  .dot { 
+    grid-area: dot; 
+    width: 90%;
+    height: 90%;
+    margin-left: 7%;
+  }
+
+  .dot p {
+    margin-top: 17%;
+  }
+  
+  .equal { 
+    grid-area: equal; 
+    width: 90%;
+    height: 90%;
+    margin-left: 3%;
+  }
+
+  .equal p {
+    margin-top: 23%;
+  }
+  
+  .numberOne { 
+    grid-area: numberOne; 
+    width: 90%;
+    height: 90%;
+    margin-left: 10%;
+  }
+
+   .numberOne p {
+    margin-top: 25%;
+  }
+  
+  .numberTwo { 
+    grid-area: numberTwo;
+    width: 90%;
+    height: 90%;
+    margin-left: 13%;
+   }
+  
+   .numberTwo p {
+    margin-top: 25%;
+  }
+  
+
+  .numberThree {
+     grid-area: numberThree;
+     width: 90%;
+    height: 90%;
+    margin-left: 13%;
+    }
+  
+    .numberThree p {
+      margin-top: 25%;
+    }
+
+  .numberFour { 
+    grid-area: numberFour; 
+    width: 90%;
+    height: 90%;
+    margin-left: 10%;
+  }
+
+  .numberFour p {
+    margin-top: 25%;
+  }
+  
+  .numberFive { 
+    width: 90%;
+    height: 90%;
+    grid-area: numberFive;
+    margin-left: 13%;
+   }
+
+   .numberFive p {
+    margin-top: 25%;
+  }
+  
+  .numberSix { 
+    grid-area: numberSix; 
+    width: 90%;
+    height: 90%;
+    margin-left: 13%;
+  }
+
+  .numberSix p {
+    margin-top: 25%;
+  }
+  
+  .numberSeven { 
+    grid-area: numberSeven;
+    width: 90%;
+    height: 90%;
+    margin-left: 10%;
+  }
+
+  .numberSeven p {
+    margin-top: 25%;
+  }
+  
+  .numberEight { 
+    width: 90%;
+    height: 90%;
+    grid-area: numberEight;
+    margin-left: 13%;
+   }
+
+   .numberEight p {
+    margin-top: 25%;
+  }
+  
+  .numberNine { 
+    width: 90%;
+    height: 90%;
+    grid-area: numberNine;
+    margin-left: 13%;
+   }
+
+   .numberNine p {
+    margin-top: 25%;
+  }
+  
+  .percentage { 
+    grid-area: percentage;
+    width: 90%;
+    height: 90%;
+    margin-left: 8%;
+  }
+
+  .percentage p {
+    margin-top: 25%;
+  }
+  
+  .division { 
+    grid-area: division;
+    width: 90%;
+    height: 90%;
+    margin-left: 3%;
+  }
+
+  .division p {
+    margin-top: 25%;
+  }
+  
+  .multiplication { 
+    grid-area: multiplication;
+    width: 90%;
+    height: 90%;
+    margin-left: 3%;
+  }
+
+  .multiplication p {
+    margin-top: 31%;
+  }
+  
+  .substract { 
+    grid-area: substract; 
+    width: 90%;
+    height: 90%;
+    margin-left: 3%;
+  }
+
+  .substract p {
+    margin-top: 22%;
+  }
+  
+  .add { 
+    grid-area: add; 
+    width: 90%;
+    height: 90%;
+    margin-left: 3%;
+  }
+
+  .add p {
+    margin-top: 22%;
+  }
+  
