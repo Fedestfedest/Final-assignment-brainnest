@@ -5,7 +5,7 @@
 }
 
 
-/* Calcultaor */
+/* Calculator */
 .calculator {  display: grid;
     grid-template-columns: 1.8fr 1.8fr 1.8fr 1.8fr 1.8fr;
     grid-template-rows: 0.3fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
@@ -34,10 +34,6 @@
     background-color: white;
   }
 
- 
-
- 
-
   .calculator p {
     font-size: 30px;
   }
@@ -45,6 +41,7 @@
   .buttons:hover {
     background-color: rgba(121, 189, 253, 0.268);
     border-color: blue;
+    cursor: pointer;
   }
 
   .buttons:active {
